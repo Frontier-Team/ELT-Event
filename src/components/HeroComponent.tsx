@@ -69,11 +69,11 @@ export default function HeroComponent() {
         </LeftColumn>
         <RightColumn>
           XX
-          {/* <GifImage
+          <GifImage
             src={logoOptimized}
             alt="Game Jam Animation"
             className={isImageLoaded ? "loaded" : ""}
-          /> */}
+          />
         </RightColumn>
       </Content>
       {showArrow && <ScrollDownArrow ref={arrowRef}>↓</ScrollDownArrow>}
