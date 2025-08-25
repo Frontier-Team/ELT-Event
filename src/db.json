@@ -73,43 +73,81 @@
   "schedule": [
     {
       "time": "09:00",
-      "description": "Door open for general registration - Game Jam participants and experience ticket.\n\nTea, Coffee and Pastries served in Tatha Canteen, Upper Foyer."
+      "description": "Hot drinks and pastried on arrival."
     },
     {
       "time": "09:30",
-      "description": "Welcome from Rose Ulldemolins, opening remarks from Chira Barua. Announcements in the Juniper Auditorium."
+      "description": "Welcome from Derek Shanks and an overview of the agenda. This will be followed by various sessions in the same room, details of which can be found on the 'Agenda' tab."
     },
     {
-      "time": "10:15",
-      "description": "Talk schedule begins in Robertson and Weston Learning Studios.\n\nGame Jam continues in Juniper Auditorium. Coaches will support participants.\n\nJudges can walk around and chat to participants."
+      "time": "11:05",
+      "description": "There will be a 15 minute break including hot drinks."
     },
     {
-      "time": "12:30",
-      "description": "Lunch is served in Tatha Canteen, Upper Foyer."
+      "time": "11:20",
+      "description": "The talk schedule continues, again on the same tables and in the same room."
     },
     {
-      "time": "13:30",
-      "description": "Talk schedule continues in Robertson and Weston Learning Studios.\n\nGame Jam continues in Juniper Auditorium.\n\nJudges can walk around and chat to participants."
+      "time": "13:00",
+      "description": "Lunch is served in XX place, with time for networking."
     },
     {
-      "time": "15:00",
-      "description": "Tea, Coffee and Sweet Treats served in Tatha Canteen, Upper Foyer.\n\nJudging panel gather in Robertson and Weston Learning Studios for presentations. Participants test technical set up."
+      "time": "13:45",
+      "description": "Return back to XX room where you will be taken to the expo held in XX."
     },
     {
-      "time": "15:20",
-      "description": "All teams present across two different rooms.\n\nRobertson Learning Studio - Internal Challenge playback.\n\nWeston Learning Studio - External Challenge playback."
+      "time": "14:40",
+      "description": "Quick break between expo sessions, with tea and coffee provided in XX."
     },
     {
-      "time": "16:45",
-      "description": "Winners announced and prizes presented by Rose Ulldemolins in Juniper Auditorium.\n\nClosing remarks from Amit from a Tech perspective and Lee from Design point of view."
+      "time": "14:50",
+      "description": "Meet back in XX room for the expo, following which we will finish back in XX room for the final talks and closing remarks."
     },
     {
       "time": "17:00",
-      "description": "Networking drinks in Tatha Canteen, Upper Foyer."
+      "description": "Networking drinks/social? XX"
+    }
+  ],
+  "expos": [
+    {
+      "id": 1,
+      "name": "Adviser Reviser",
+      "description": "XX"
     },
     {
-      "time": "19:00",
-      "description": "Event concludes.\n\nExhibits and Speakers pack up.\n\nVenue closes."
+      "id": 2,
+      "name": "Personalisation A/B Testing",
+      "description": "XX"
+    },
+    {
+      "id": 3,
+      "name": "Accessibility",
+      "description": "XX"
+    },
+    {
+      "id": 4,
+      "name": "Games",
+      "description": "XX"
+    },
+    {
+      "id": 5,
+      "name": "Connect Microservice",
+      "description": "XX"
+    },
+    {
+      "id": 6,
+      "name": "Content Square",
+      "description": "XX"
+    },
+    {
+      "id": 7,
+      "name": "Lego/Software Build",
+      "description": "XX"
+    },
+    {
+      "id": 8,
+      "name": "Predictive Engagement",
+      "description": "XX"
     }
   ],
   "expos": [
