@@ -17,9 +17,7 @@
       "name": "Daria Naidonova",
       "occupation": "Student",
       "details": "Studying Experience Design (BDes Hons) at University of Dundee",
-      "contact": [
-        "Instagram - https://www.instagram.com/naidenovka007"
-      ],
+      "contact": ["Instagram - https://www.instagram.com/naidenovka007"],
       "isFilterable": true
     },
     {
@@ -50,9 +48,7 @@
       "name": "Amy Rodger",
       "occupation": "Design Researcher",
       "details": "Researching at Scottish Widows",
-      "contact": [
-        "LinkedIn - https://www.linkedin.com/in/amyrodgercs"
-      ],
+      "contact": ["LinkedIn - https://www.linkedin.com/in/amyrodgercs"],
       "isFilterable": true
     },
     {
@@ -60,9 +56,7 @@
       "name": "Yi Han",
       "occupation": "Interaction Designer",
       "details": "Designing at Scottish Widows",
-      "contact": [
-        "LinkedIn - https://www.linkedin.com/in/yiiihan"
-      ],
+      "contact": ["LinkedIn - https://www.linkedin.com/in/yiiihan"],
       "isFilterable": true
     },
     {
@@ -79,43 +73,39 @@
   "schedule": [
     {
       "time": "09:00",
-      "description": "Door open for general registration - Game Jam participants and experience ticket.\n\nTea, Coffee and Pastries served in Tatha Canteen, Upper Foyer."
+      "description": "Hot drinks and pastried on arrival."
     },
     {
       "time": "09:30",
-      "description": "Welcome from Rose Ulldemolins, opening remarks from Chira Barua. Announcements in the Juniper Auditorium."
+      "description": "Welcome from Derek Shanks and an overview of the agenda. This will be followed by various sessions in the same room, details of which can be found on the 'Agenda' tab."
     },
     {
-      "time": "10:15",
-      "description": "Talk schedule begins in Robertson and Weston Learning Studios.\n\nGame Jam continues in Juniper Auditorium. Coaches will support participants.\n\nJudges can walk around and chat to participants."
+      "time": "11:05",
+      "description": "There will be a 15 minute break including hot drinks."
     },
     {
-      "time": "12:30",
-      "description": "Lunch is served in Tatha Canteen, Upper Foyer."
+      "time": "11:20",
+      "description": "The talk schedule continues, again on the same tables and in the same room."
     },
     {
-      "time": "13:30",
-      "description": "Talk schedule continues in Robertson and Weston Learning Studios.\n\nGame Jam continues in Juniper Auditorium.\n\nJudges can walk around and chat to participants."
+      "time": "13:00",
+      "description": "Lunch is served in XX place, with time for networking."
     },
     {
-      "time": "15:00",
-      "description": "Tea, Coffee and Sweet Treats served in Tatha Canteen, Upper Foyer.\n\nJudging panel gather in Robertson and Weston Learning Studios for presentations. Participants test technical set up."
+      "time": "13:45",
+      "description": "Return back to XX room where you will be taken to the expo held in XX."
     },
     {
-      "time": "15:20",
-      "description": "All teams present across two different rooms.\n\nRobertson Learning Studio - Internal Challenge playback.\n\nWeston Learning Studio - External Challenge playback."
+      "time": "14:40",
+      "description": "Quick break between expo sessions, with tea and coffee provided in XX."
     },
     {
-      "time": "16:45",
-      "description": "Winners announced and prizes presented by Rose Ulldemolins in Juniper Auditorium.\n\nClosing remarks from Amit from a Tech perspective and Lee from Design point of view."
+      "time": "14:50",
+      "description": "Meet back in XX room for the expo, following which we will finish back in XX room for the final talks and closing remarks."
     },
     {
       "time": "17:00",
-      "description": "Networking drinks in Tatha Canteen, Upper Foyer."
-    },
-    {
-      "time": "19:00",
-      "description": "Event concludes.\n\nExhibits and Speakers pack up.\n\nVenue closes."
+      "description": "Networking drinks/social? XX"
     }
   ],
   "talks": [
@@ -129,9 +119,7 @@
       "endTime": "10:40",
       "location": "Robertson Learning Studio",
       "company": "Scottish Games Network Ltd.",
-      "speakers": [
-        "Brian Baglow"
-      ],
+      "speakers": ["Brian Baglow"],
       "isFilterable": true
     },
     {
@@ -144,9 +132,7 @@
       "endTime": "11:15",
       "location": "Robertson Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Toby Keech"
-      ],
+      "speakers": ["Toby Keech"],
       "isFilterable": true
     },
     {
@@ -159,9 +145,7 @@
       "endTime": "11:50",
       "location": "Robertson Learning Studio",
       "company": "Microsoft",
-      "speakers": [
-        "Chris Green"
-      ],
+      "speakers": ["Chris Green"],
       "isFilterable": true
     },
     {
@@ -174,9 +158,7 @@
       "endTime": "12:10",
       "location": "Robertson Learning Studio",
       "company": "Hyper Luminal Games",
-      "speakers": [
-        "Phoebe Anderson"
-      ],
+      "speakers": ["Phoebe Anderson"],
       "isFilterable": true
     },
     {
@@ -189,9 +171,7 @@
       "endTime": "12:30",
       "location": "Robertson Learning Studio",
       "company": "Scottish Tech Army",
-      "speakers": [
-        "Alistair Forbes"
-      ],
+      "speakers": ["Alistair Forbes"],
       "isFilterable": true
     },
     {
@@ -204,9 +184,7 @@
       "endTime": "13:30",
       "location": "Robertson Learning Studio",
       "company": "",
-      "speakers": [
-        ""
-      ],
+      "speakers": [""],
       "isFilterable": false
     },
     {
@@ -219,10 +197,7 @@
       "endTime": "13:55",
       "location": "Robertson Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Katy Lynch",
-        "Robert Cochran"
-      ],
+      "speakers": ["Katy Lynch", "Robert Cochran"],
       "isFilterable": true
     },
     {
@@ -235,9 +210,7 @@
       "endTime": "14:30",
       "location": "Robertson Learning Studio",
       "company": "University of Dundee",
-      "speakers": [
-        "Fin Tams-Gray"
-      ],
+      "speakers": ["Fin Tams-Gray"],
       "isFilterable": true
     },
     {
@@ -250,9 +223,7 @@
       "endTime": "15:00",
       "location": "Robertson Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Amy Rodger"
-      ],
+      "speakers": ["Amy Rodger"],
       "isFilterable": true
     },
     {
@@ -278,9 +249,7 @@
       "endTime": "16:30",
       "location": "Robertson Learning Studio",
       "company": "",
-      "speakers": [
-        "Internal Lloyds Colleagues"
-      ],
+      "speakers": ["Internal Lloyds Colleagues"],
       "isFilterable": true
     },
     {
@@ -293,9 +262,7 @@
       "endTime": "10:40",
       "location": "Weston Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Andrew Smith and Lilly McNally"
-      ],
+      "speakers": ["Andrew Smith and Lilly McNally"],
       "isFilterable": true
     },
     {
@@ -308,9 +275,7 @@
       "endTime": "11:15",
       "location": "Weston Learning Studio",
       "company": "Eclectic Synthesis Limited",
-      "speakers": [
-        "Jake McCullagh"
-      ],
+      "speakers": ["Jake McCullagh"],
       "isFilterable": true
     },
     {
@@ -323,9 +288,7 @@
       "endTime": "11:50",
       "location": "Weston Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Dave Cook"
-      ],
+      "speakers": ["Dave Cook"],
       "isFilterable": true
     },
     {
@@ -338,10 +301,7 @@
       "endTime": "12:30",
       "location": "Weston Learning Studio",
       "company": "",
-      "speakers": [
-        "Carol Clark",
-        "Cillin Farrell"
-      ],
+      "speakers": ["Carol Clark", "Cillin Farrell"],
       "isFilterable": true
     },
     {
@@ -354,9 +314,7 @@
       "endTime": "13:30",
       "location": "Weston Learning Studio",
       "company": "",
-      "speakers": [
-        ""
-      ],
+      "speakers": [""],
       "isFilterable": false
     },
     {
@@ -369,9 +327,7 @@
       "endTime": "13:55",
       "location": "Weston Learning Studio",
       "company": "Opera",
-      "speakers": [
-        "Russell Kay"
-      ],
+      "speakers": ["Russell Kay"],
       "isFilterable": true
     },
     {
@@ -384,9 +340,7 @@
       "endTime": "14:30",
       "location": "Weston Learning Studio",
       "company": "Lloyds Banking Group",
-      "speakers": [
-        "Dave Mcleay"
-      ],
+      "speakers": ["Dave Mcleay"],
       "isFilterable": true
     },
     {
@@ -399,9 +353,7 @@
       "endTime": "15:00",
       "location": "Weston Learning Studio",
       "company": "Peaty Turf",
-      "speakers": [
-        "Cillin Farrell"
-      ],
+      "speakers": ["Cillin Farrell"],
       "isFilterable": true
     },
     {
@@ -414,9 +366,7 @@
       "endTime": "15:30",
       "location": "Weston Learning Studio",
       "company": "",
-      "speakers": [
-        ""
-      ],
+      "speakers": [""],
       "isFilterable": false
     },
     {
@@ -429,9 +379,7 @@
       "endTime": "16:30",
       "location": "Weston Learning Studio",
       "company": "",
-      "speakers": [
-        "University Teams"
-      ],
+      "speakers": ["University Teams"],
       "isFilterable": true
     }
   ],

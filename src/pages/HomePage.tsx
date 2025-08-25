@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import HeroComponent from '../components/HeroComponent';
-import { Paragraph } from '../styles/sharedStyles';
+import React from "react";
+import styled from "@emotion/styled";
+import HeroComponent from "../components/HeroComponent";
+import { Paragraph } from "../styles/sharedStyles";
 
 export const HomePage: React.FC = () => {
   return (
@@ -9,81 +9,52 @@ export const HomePage: React.FC = () => {
       <HeroComponent></HeroComponent>
       <Content>
         <Section>
-          <Title>Welcome to Game Jam Dundee</Title>
+          <Title>Welcome to the CIO IP&amp;I Q3 ELT Event</Title>
           <Subtitle>
-            Thank you for joining us for Game Jam Dundee! The Scottish Widows
-            team are thrilled to have you here and extend a warm welcome to all
-            of you.
+            Thank you for joining us in Edinburgh! The Waterfront platform are
+            thrilled to have you here and extend a warm welcome to all of you.
           </Subtitle>
         </Section>
         <Section>
-          <Subtitle>What's a Game Jam</Subtitle>
+          <Subtitle>What you can expect of the day?</Subtitle>
           <Paragraph>
-            Think of Reboot (who are supporting the event) but with a focus on
-            games and gamification. It's a super fun event where we come
-            together to brainstorm, design, and develop a game or gamified app
-            from scratch - all within a limited time frame.
+            First of all, the day is 8-bit gamed themed, so although we want you
+            to get a lot our of the day we also want you to have fun. There's XX
+            games machines in the XX area - please do play them whenever you get
+            a chance.
           </Paragraph>
           <Paragraph>
-            Whether you're a coding wizard, a design guru, or just someone with a
-            wild imagination and an interest in games, there's a place for you
-            in this adventure! In the Game Jam, 60 attendees will work to solve
-            challenges using games or gamification techniques over a 2-day
-            period at the V&A Museum in Dundee.
+            We'll start in the day in XX room, which will be a welcome from
+            Derek Shanks, our TPL in Waterfront. He'll then pass over the Nick
+            Grant and Rose Ulldemolins who will be your hosts for the day - 80's
+            atire and all! We have a whole host of presenters, details of which
+            you can find in the 'Agenda' tab.
           </Paragraph>
           <Paragraph>
-            This is a fantastic way to unleash creativity and explore new
-            possibilities in game design by bringing together developers,
-            designers, and other creatives to rapidly prototype and experiment
-            with new ideas, mechanics, and art styles.
-          </Paragraph>
-        </Section>
-        <Section>
-          <Subtitle>
-            Not wanting to compete but still want to come along?
-          </Subtitle>
-          <Paragraph>
-            On <strong>Tuesday 4th March</strong>, we will host inspiring{' '}
-            <strong>Tech Talks, Workshops and Exhibits!</strong> With carefully
-            curated content focusing on game development, design, and
-            engineering, we know it will be a valuable opportunity for you to
-            learn more and meet people from across disciplines of LBG and
-            external collaborations such as the Founder of Scottish Games
-            Network, Product Director from Opera, Abertay & Dundee University
-            Games Departments and much more!
+            Later in the afternoon we'll be hosting the first ever expo at an
+            ELT event. You'll get a chance to hear from 8 different teams across
+            waterfront with interactive demo's for you to get involved in.
+            Again, more details for these can be found on the 'Expo' tab.
           </Paragraph>
         </Section>
         <Section>
-          <Subtitle>
-            V&A Wi-Fi
-          </Subtitle>
+          <Subtitle>Raddison Blu Wi-Fi</Subtitle>
           <Paragraph>
-          Please connect to the Wi-Fi network using the credentials below.
-          <br></br>
-          <strong>Network Name: </strong>Game Jam
-          <br></br>
-          <strong>Password: </strong>GameJam2025
+            Please connect to the Wi-Fi network using the credentials below.
+            <br></br>
+            <strong>Network Name: </strong>XX
+            <br></br>
+            <strong>Password: </strong>XX
           </Paragraph>
         </Section>
-        <Section>
-          <Subtitle>
-            Look out for our helpers and support team
-          </Subtitle>
-          <Paragraph>
-            Our event organisers and support team will be wearing T-shirts with the  
-             Game Jam logo. You'll see them at the front desk and around the event.
-          </Paragraph>
-        </Section>
-        <Subtitle style={{ textAlign: 'center' }}>
-          Let's make this Game Jam an unforgettable experience!
-        </Subtitle>
-        <Subtitle style={{ textAlign: 'center' }}>
-          Ready, Set, Create! 🚀
-        </Subtitle>
         <Footer>
           <FooterContent>
             <Paragraph>
-              If you need to make any adjustments or have any specific requests, please contact us at: <a href="mailto:IPIEvents@lloydsbanking.com">IPIEvents@lloydsbanking.com</a>
+              If you need to make any adjustments or have any specific requests,
+              please contact us at:{" "}
+              <a href="mailto:IPIEvents@lloydsbanking.com">
+                IPIEvents@lloydsbanking.com
+              </a>
             </Paragraph>
           </FooterContent>
         </Footer>

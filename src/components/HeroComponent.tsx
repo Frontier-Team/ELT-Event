@@ -1,7 +1,7 @@
-import { useEffect, useState, useRef } from 'react';
-import styled from '@emotion/styled';
-import { keyframes } from '@emotion/react';
-import logoOptimized from '../assets/logo-optimized.gif';
+import { useEffect, useState, useRef } from "react";
+import styled from "@emotion/styled";
+import { keyframes } from "@emotion/react";
+import logoOptimized from "../assets/logo-optimized.gif";
 
 export default function HeroComponent() {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
@@ -17,7 +17,7 @@ export default function HeroComponent() {
 
   // hide arrow after scrolling past it
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
+    if (typeof window !== "undefined" && "IntersectionObserver" in window) {
       const observer = new IntersectionObserver(
         ([entry]) => {
           setShowArrow(entry.isIntersecting);
@@ -43,9 +43,10 @@ export default function HeroComponent() {
         }
       };
 
-      if (typeof window !== 'undefined') {
-        (window as Window).addEventListener('scroll', handleScroll);
-        return () => (window as Window).removeEventListener('scroll', handleScroll);
+      if (typeof window !== "undefined") {
+        (window as Window).addEventListener("scroll", handleScroll);
+        return () =>
+          (window as Window).removeEventListener("scroll", handleScroll);
       }
     }
   }, []);
@@ -55,18 +56,22 @@ export default function HeroComponent() {
       <Content>
         <LeftColumn>
           <Title>
-            <span className='welcome'>Welcome to</span>
-            <span className='game-jam-dundee'>Game Jam Dundee</span>
+            <span className="welcome">Welcome to</span>
+            <span className="game-jam-dundee">
+              the CIO IP&amp;I Q3 ELT Event
+            </span>
           </Title>
           <Subtitle>
-            Join us for an exciting event full of creativity and innovation!
+            Hosted by the Waterfront platform, we'd love for you to join us for
+            an 8-bit game themed event with thought provoking talks and our
+            first ever expo!
           </Subtitle>
         </LeftColumn>
         <RightColumn>
           <GifImage
             src={logoOptimized}
-            alt='Game Jam Animation'
-            className={isImageLoaded ? 'loaded' : ''}
+            alt="Game Jam Animation"
+            className={isImageLoaded ? "loaded" : ""}
           />
         </RightColumn>
       </Content>
