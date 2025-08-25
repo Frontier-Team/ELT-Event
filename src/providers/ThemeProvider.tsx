@@ -3,14 +3,14 @@ import React from "react";
 
 export const theme = {
   colors: {
-    teal: "#0B3239",
+    teal: "#006A4D",
     white: "#FFFFFF",
     grey: "#F8F8F8",
-    turquoise: "#01CDD1",
-    turquoiseShade: "#00958B",
+    turquoise: "#6CF479",
+    turquoiseShade: "#6CF479",
     red: "#FF222F",
-    lilac: "#BA75FF",
-    lilacShade: "#B061FF",
+    lilac: "#323233",
+    lilacShade: "#000",
     darkPink: "#FFCCD9",
   },
   breakpoints: {
@@ -29,7 +29,7 @@ export const globalStyles = css`
   }
 
   body {
-    font-family: "Inter", sans-serif;
+    font-family: "Courier New", Courier, monospace;
   }
 
   h1,
@@ -40,6 +40,7 @@ export const globalStyles = css`
   h6,
   a {
     font-family: "Pixelify Sans", sans-serif;
+    letter-spacing: 1px;
   }
 `;
 

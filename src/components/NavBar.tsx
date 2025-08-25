@@ -52,7 +52,8 @@ export const NavBar: React.FC = () => {
     { to: "/speakers", label: "Agenda" },
     { to: "/expo", label: "Expo" },
     { to: "/map", label: "Map" },
-    { to: "/game", label: "Game" },
+    { to: "/people-adventure", label: "People Adventure" },
+    { to: "https://ivrgame.netlify.app", label: "IVR Game" },
   ];
 
   return (
@@ -67,7 +68,11 @@ export const NavBar: React.FC = () => {
           <NavItem key={link.to}>
             <NavLink
               to={link.to}
-              onClick={() => setActiveTab(link.to)}
+              onClick={() => {
+                if (link.label !== "Game") {
+                  setActiveTab(link.to);
+                }
+              }}
               className={getLinkCls(link.to)}
             >
               {link.label}
@@ -87,6 +92,8 @@ export const NavBar: React.FC = () => {
                   setActiveTab(link.to);
                   toggleSidebar();
                 }}
+                rel={link.label === "Game" ? "noopener noreferrer" : undefined}
+                target={link.label === "Game" ? "_blank" : undefined}
               >
                 {link.label}
               </SidebarLink>

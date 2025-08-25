@@ -18,8 +18,21 @@ interface NavLinkProps {
   children: React.ReactNode;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ to, onClick, className, children }) => (
-  <StyledLink to={to} onClick={onClick} className={className}>
+const NavLink: React.FC<NavLinkProps> = ({
+  to,
+  onClick,
+  className,
+  children,
+}) => (
+  <StyledLink
+    to={to}
+    onClick={onClick}
+    className={className}
+    rel={
+      to === "https://ivrgame.netlify.app" ? "noopener noreferrer" : undefined
+    }
+    target={to === "https://ivrgame.netlify.app" ? "_blank" : undefined}
+  >
     {children}
   </StyledLink>
 );

@@ -15,6 +15,7 @@ const AccordionTitle = styled.button`
   font-size: 1.25rem;
   font-weight: bold;
   font-family: "Pixelify Sans", sans-serif;
+  letter-spacing: 1px;
   background: ${({ theme }) => theme.colors.grey};
   border: none;
   cursor: pointer;
@@ -23,9 +24,9 @@ const AccordionTitle = styled.button`
   align-items: center;
   outline: none;
   transition: background 0.3s ease;
-  color: inherit; 
+  color: inherit;
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
   &:focus {
     color: ${({ theme }) => theme.colors.lilacShade};
@@ -55,9 +56,9 @@ const AccordionContent = styled.div<{ isOpen: boolean }>`
   padding: ${({ isOpen }) => (isOpen ? "1rem" : "0 1rem")};
   background: ${({ theme }) => theme.colors.grey};
   display: ${({ isOpen }) => (isOpen ? "block" : "none")};
-  color: inherit; 
-  text-decoration: none; 
-  -webkit-tap-highlight-color: transparent; 
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 interface AccordionProps {

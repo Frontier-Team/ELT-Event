@@ -27,7 +27,7 @@ export const App = () => {
           <Route path="/expo" element={<ExpoPage />} />
           <Route path="/auction" element={<AuctionPage />} />
           <Route path="/map" element={<MapPage />} />
-          <Route path="/game" element={<GamePage />} />
+          <Route path="/people-adventure" element={<GamePage />} />
           <Route path="/jammers" element={<JammerPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
         </Routes>

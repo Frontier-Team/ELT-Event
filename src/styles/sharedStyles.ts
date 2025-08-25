@@ -15,7 +15,7 @@ export const buttonAndLinkStyles = (theme: Theme) => css`
   background-color: ${theme.colors.teal};
   color: ${theme.colors.white};
   border: 2px solid ${theme.colors.turquoiseShade};
-  border-top: 1px solid rgba(1, 205, 209, 0.6);
+  border-top: 1px solid ${theme.colors.turquoiseShade};
   border-radius: 4px;
   text-decoration: none;
 
@@ -29,7 +29,7 @@ export const buttonAndLinkStyles = (theme: Theme) => css`
   &.active-link {
     background-color: ${theme.colors.lilac};
     border: 2px solid ${theme.colors.lilacShade};
-    border-top: 1px solid rgba(176, 97, 255, 0.8);
+    border-top: 1px solid ${theme.colors.lilacShade};
     box-shadow: 0 4px 0 ${theme.colors.lilacShade}, 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 `;
@@ -63,7 +63,6 @@ export const SubHeading = styled.h2`
   font-size: 1.25rem;
   margin-top: 1.25rem;
   margin-bottom: 1rem;
-  font-weight: bold;
   text-align: center;
 `;
 
