@@ -150,48 +150,6 @@
       "description": "XX"
     }
   ],
-  "expos": [
-    {
-      "id": 1,
-      "name": "Adviser Reviser",
-      "description": "XX"
-    },
-    {
-      "id": 2,
-      "name": "Personalisation A/B Testing",
-      "description": "XX"
-    },
-    {
-      "id": 3,
-      "name": "Accessibility",
-      "description": "XX"
-    },
-    {
-      "id": 4,
-      "name": "Games",
-      "description": "XX"
-    },
-    {
-      "id": 5,
-      "name": "Connect Microservice",
-      "description": "XX"
-    },
-    {
-      "id": 6,
-      "name": "Content Square",
-      "description": "XX"
-    },
-    {
-      "id": 7,
-      "name": "Lego/Software Build",
-      "description": "XX"
-    },
-    {
-      "id": 8,
-      "name": "Predictive Engagement",
-      "description": "XX"
-    }
-  ],
   "talks": [
     {
       "id": 1,
@@ -221,7 +179,7 @@
       "id": 5,
       "time": "10:35-11:05",
       "topic": "Sustainability - Kettle v Logon",
-      "speakers": ["Derek Shanks", "lain Frame"]
+      "speakers": ["Derek Shanks", "Iain Frame"]
     },
     {
       "id": 6,
@@ -262,13 +220,13 @@
     {
       "id": 12,
       "time": "13:45-13:50",
-      "topic": "llanstuon lo cxoo",
+      "topic": "Transition to Expo",
       "speakers": ["All"]
     },
     {
       "id": 13,
       "time": "13:50-14:40",
-      "topic": "Walertont cxoo",
+      "topic": "Waterfront Expo",
       "speakers": ["Waterfront Platform"]
     },
     {
@@ -287,7 +245,7 @@
       "id": 16,
       "time": "15:40-15:45",
       "topic": "Transition back from Expo",
-      "speakers": []
+      "speakers": ["All"]
     },
     {
       "id": 17,
@@ -298,13 +256,13 @@
     {
       "id": 18,
       "time": "15:55-16:55",
-      "topic": "Agentic Al",
+      "topic": "Agentic AI",
       "speakers": ["Aritra Chakravarty"]
     },
     {
       "id": 19,
       "time": "16:55-17:00",
-      "topic": "Wose",
+      "topic": "Close",
       "speakers": ["Amit Thawani", "Derek Shanks"]
     }
   ],
