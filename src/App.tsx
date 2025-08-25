@@ -11,6 +11,7 @@ import { SchedulePage } from "./pages/SchedulePage";
 import { TalkAgendaPage } from "./pages/TalkAgendaPage";
 import { AppThemeProvider } from "./providers/ThemeProvider";
 import ResourcesPage from "./pages/ResourcesPage";
+import { ExpoPage } from "./pages/ExpoPage";
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/accessibility" element={<AccessibilityPage />} />
           <Route path="/speakers" element={<TalkAgendaPage />} />
+          <Route path="/expo" element={<ExpoPage />} />
           <Route path="/auction" element={<AuctionPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/game" element={<GamePage />} />

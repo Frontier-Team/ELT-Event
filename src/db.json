@@ -112,6 +112,48 @@
       "description": "Event concludes.\n\nExhibits and Speakers pack up.\n\nVenue closes."
     }
   ],
+  "expos": [
+    {
+      "id": 1,
+      "name": "Adviser Reviser",
+      "description": "XX"
+    },
+    {
+      "id": 2,
+      "name": "Personalisation A/B Testing",
+      "description": "XX"
+    },
+    {
+      "id": 3,
+      "name": "Accessibility",
+      "description": "XX"
+    },
+    {
+      "id": 4,
+      "name": "Games",
+      "description": "XX"
+    },
+    {
+      "id": 5,
+      "name": "Connect Microservice",
+      "description": "XX"
+    },
+    {
+      "id": 6,
+      "name": "Content Square",
+      "description": "XX"
+    },
+    {
+      "id": 7,
+      "name": "Lego/Software Build",
+      "description": "XX"
+    },
+    {
+      "id": 8,
+      "name": "Predictive Engagement",
+      "description": "XX"
+    }
+  ],
   "talks": [
     {
       "id": 1,

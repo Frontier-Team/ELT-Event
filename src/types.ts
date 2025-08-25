@@ -11,3 +11,9 @@ export interface Portfolio {
   details: string;
   contact: string;
 }
+
+export interface Expo {
+  id: number;
+  name: string;
+  description: string;
+}
