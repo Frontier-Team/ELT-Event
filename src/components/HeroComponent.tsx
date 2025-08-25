@@ -68,7 +68,7 @@ export default function HeroComponent() {
           </Subtitle>
         </LeftColumn>
         <RightColumn>
-          XX
+          XX - Replace Image
           <GifImage
             src={logoOptimized}
             alt="Game Jam Animation"
