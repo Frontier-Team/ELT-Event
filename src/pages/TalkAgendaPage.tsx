@@ -1,47 +1,32 @@
-import { Table } from '../components/Table';
-import data from '../db.json';
-import { CenteredParagraph, Heading, PageContainer } from '../styles/sharedStyles';
-import { Event } from '../types';
+import { Table } from "../components/Table";
+import data from "../db.json";
+import {
+  CenteredParagraph,
+  Heading,
+  PageContainer,
+} from "../styles/sharedStyles";
+import { Event } from "../types";
 
 export const TalkAgendaPage = () => {
-  const headers = [
-    '',
-    'Start',
-    'End',
-    'Title',
-    'Description',
-    'Speaker(s)',
-    'Company',
-  ];
+  const headers = ["Topic", "Time", "Presenter"];
 
-  const fieldsToDisplay: (keyof Event)[] = [
-    'startTime',
-    'endTime',
-    'title',
-    'description',
-    'speakers',
-    'company',
-  ];
-
-  const uniqueLocations = Array.from(new Set(data.talks.map((talk) => talk.location)));
+  const fieldsToDisplay: (keyof Event)[] = ["topic", "time", "speakers"];
 
   return (
     <PageContainer>
-      <Heading>Talk Agenda</Heading>
-      <CenteredParagraph>Each of the studios holds 35 people, so it will be first come first serve. If you'd like to attend the talk please make sure you're on time to secure a space.</CenteredParagraph>
-      <CenteredParagraph>All talks will be held on March 4, 2025.</CenteredParagraph>
-      {uniqueLocations.map((location) => (
-        <Table
-          key={location}
-          heading={location}
-          headers={headers}
-          rows={data.talks.filter((talk) => talk.location === location)}
-          fieldsToDisplay={fieldsToDisplay}
-          largeFields={['description']}
-          showFavoritesFilter={true}
-          fieldToSave='title'
-        />
-      ))}
+      <Heading>Agenda</Heading>
+      <CenteredParagraph>
+        All talks on the day will be held in the XX room where as the expo will
+        be across XX and XX area
+      </CenteredParagraph>
+
+      <Table
+        heading="XX"
+        headers={headers}
+        rows={data.talks}
+        fieldsToDisplay={fieldsToDisplay}
+        largeFields={["topic"]}
+      />
     </PageContainer>
   );
 };
