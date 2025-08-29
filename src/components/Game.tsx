@@ -6,10 +6,10 @@ import { Title } from "../styles/sharedStyles";
 
 export const Game: React.FC = () => {
   const { unityProvider, isLoaded, initialisationError, unload } = useUnityContext({
-    loaderUrl: "/gamejam/build/game/game-jam.loader.js",
-    dataUrl: "/gamejam/build/game/game-jam.data",
-    frameworkUrl: "/gamejam/build/game/game-jam.framework.js",
-    codeUrl: "/gamejam/build/game/game-jam.wasm",
+    loaderUrl: "/ELT-Event/build/game/web.loader.js",
+    dataUrl: "/ELT-Event/build/game/web.data",
+    frameworkUrl: "/ELT-Event/build/game/web.framework.js",
+    codeUrl: "/ELT-Event/build/game/web.wasm",
   });
 
   useEffect(() => {
