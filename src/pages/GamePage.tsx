@@ -5,8 +5,8 @@ import { CenteredParagraph, Heading, PageContainer } from '../styles/sharedStyle
 export const GamePage: React.FC = () => {
   return (
     <PageContainer>
-      <Heading>Game Example</Heading>
-      <CenteredParagraph>Here is an example of a game we built using Unity and React Unity WebGL for integrating into a web application. </CenteredParagraph>
+      <Heading>XX - Voting</Heading>
+      <CenteredParagraph>XX - Tap the screen to move to a location. Tap again to speak to a person. The postbox to send your vote will become available when you have read every idea.  </CenteredParagraph>
       <Game />
     </PageContainer>
   );
