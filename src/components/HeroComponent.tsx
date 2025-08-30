@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/react";
-import logoOptimized from "../assets/logo-optimized.gif";
+import logoOptimized from "../assets/ELT.gif";
 
 export default function HeroComponent() {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
@@ -68,7 +68,6 @@ export default function HeroComponent() {
           </Subtitle>
         </LeftColumn>
         <RightColumn>
-          XX - Replace Image
           <GifImage
             src={logoOptimized}
             alt="Game Jam Animation"
@@ -117,7 +116,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.teal};
+  background-color: ${({ theme }) => theme.colors.lilac};
   padding: 0 2rem;
   min-height: 600px;
   max-width: 1300px;

@@ -9,7 +9,7 @@ export const theme = {
     turquoise: "#6CF479",
     turquoiseShade: "#6CF479",
     red: "#FF222F",
-    lilac: "#323233",
+    lilac: "#303033",
     lilacShade: "#000",
     darkPink: "#FFCCD9",
   },
