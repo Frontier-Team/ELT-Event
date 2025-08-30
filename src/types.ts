@@ -3,6 +3,7 @@ export interface Event {
   time: string;
   topic: string;
   speakers: string[];
+  location: string;
 }
 
 export interface Portfolio {

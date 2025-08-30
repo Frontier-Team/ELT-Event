@@ -5,7 +5,6 @@ interface TableProps<T> {
   headers: string[];
   fieldsToDisplay: (keyof T)[];
   rows: T[];
-  largeFields?: (keyof T)[];
   showFavoritesFilter?: boolean;
   fieldToSave?: keyof T;
 }
@@ -14,7 +13,6 @@ export const Table = <T,>({
   heading,
   headers,
   fieldsToDisplay,
-  largeFields = [],
   rows,
 }: TableProps<T>) => {
   const renderContent = (value: any) => {
@@ -72,11 +70,8 @@ export const Table = <T,>({
           {rows.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {fieldsToDisplay.map((field) => {
-                const isLarge = largeFields.includes(field);
                 return (
-                  <td key={field.toString()} className={isLarge ? "large" : ""}>
-                    {renderContent(row[field])}
-                  </td>
+                  <td key={field.toString()}>{renderContent(row[field])}</td>
                 );
               })}
             </tr>

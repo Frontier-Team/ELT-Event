@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { motion } from 'framer-motion';
+import styled from "@emotion/styled";
+import { motion } from "framer-motion";
 
 export const TimelineContainer = styled.div`
   display: flex;
@@ -24,19 +24,20 @@ export const Line = styled.div`
 `;
 
 interface TimelineItemProps {
-  side: 'left' | 'right';
-};
+  side: "left" | "right";
+}
 
 export const TimelineItem = styled(motion.div)<TimelineItemProps>`
   display: flex;
-  justify-content: ${({ side }) => side === 'left' ? 'flex-start' : 'flex-end'};
+  justify-content: ${({ side }) =>
+    side === "left" ? "flex-start" : "flex-end"};
   width: 100%;
   max-width: 800px;
   padding: 20px 0;
   position: relative;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -63,7 +64,7 @@ export const Connector = styled.div<TimelineItemProps>`
   height: 4px;
   background-color: ${({ theme }) => theme.colors.turquoise};
   top: 50%;
-  ${({ side }) => (side === 'left' ? 'right: 50%;' : 'left: 50%;')}
+  ${({ side }) => (side === "left" ? "right: 50%;" : "left: 50%;")}
   transform: translateY(-50%);
 `;
 

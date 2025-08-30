@@ -15,13 +15,15 @@ export const ExpoPage = () => {
   return (
     <PageContainer>
       <Heading>Expo</Heading>
-      <CenteredParagraph>XX</CenteredParagraph>
+      <CenteredParagraph>
+        You will be taken round in the expo in groups - the table below gives
+        you an insight into what you'll see!
+      </CenteredParagraph>
 
       <Table
         headers={headers}
         rows={data.expos}
         fieldsToDisplay={fieldsToDisplay}
-        largeFields={["description"]}
       />
     </PageContainer>
   );

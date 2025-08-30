@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { buttonAndLinkStyles } from '../styles/sharedStyles';
+import styled from "@emotion/styled";
+import { buttonAndLinkStyles } from "../styles/sharedStyles";
 
 export const Heading = styled.div`
   text-align: center;
@@ -9,9 +9,9 @@ export const TableContainer = styled.div`
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border-radius: 2rem;
-  max-width: 1200px;
 
-  .table-heading, .info-text {
+  .table-heading,
+  .info-text {
     position: sticky;
     top: 0;
     left: 0;
@@ -25,17 +25,18 @@ export const TableContainer = styled.div`
     border-collapse: separate;
     border-spacing: 0;
     border-radius: 10px;
-    min-width: 60rem;
+    min-width: 30rem;
     margin-bottom: 4rem;
     overflow: hidden;
   }
 
-  th, td {
-    padding: 2rem;
+  th,
+  td {
+    padding: 1rem;
     text-align: left;
     border-bottom: ${({ theme }) => `1px solid ${theme.colors.teal}`};
   }
-  
+
   .filter-heading-cell {
     padding: 0;
   }
@@ -76,10 +77,6 @@ export const TableContainer = styled.div`
     color: ${({ theme }) => `${theme.colors.white}`};
   }
 
-  td, th {
-    width: 20rem;
-  }
-  
   .checkbox-column {
     text-align: center;
   }
