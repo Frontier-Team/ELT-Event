@@ -73,39 +73,39 @@
   "schedule": [
     {
       "time": "09:00",
-      "description": "Hot drinks and pastried on arrival."
+      "description": "Tea, coffee and pastries on arrival."
     },
     {
       "time": "09:30",
-      "description": "Welcome from Derek Shanks and an overview of the agenda. This will be followed by various sessions in the same room, details of which can be found on the 'Agenda' tab."
+      "description": "Welcome from Derek Shanks and an overview of the agenda. This will be followed by various sessions in St Giles, details of which can be found on the 'Agenda' tab."
     },
     {
       "time": "11:05",
-      "description": "There will be a 15 minute break including hot drinks."
+      "description": "There will be a 15 minute break for you to grab a tea or a coffee."
     },
     {
       "time": "11:20",
-      "description": "The talk schedule continues, again on the same tables and in the same room."
+      "description": "The talk schedule continues, again on the same tables and in St Giles."
     },
     {
       "time": "13:00",
-      "description": "Lunch is served in XX place, with time for networking."
+      "description": "Lunch is served in Canongate with time for networking."
     },
     {
       "time": "13:45",
-      "description": "Return back to XX room where you will be taken to the expo held in XX."
+      "description": "Head to St Giles where you will be taken to the expo held in Dunedin."
     },
     {
       "time": "14:40",
-      "description": "Quick break between expo sessions, with tea and coffee provided in XX."
+      "description": "Quick break between expo sessions, with tea and coffee provided in Dunedin."
     },
     {
       "time": "14:50",
-      "description": "Meet back in XX room for the expo, following which we will finish back in XX room for the final talks and closing remarks."
+      "description": "Meet back in Dunedin for the expo, following which we will finish back in St Giles room for the final talks and closing remarks."
     },
     {
       "time": "17:00",
-      "description": "Networking drinks/social? XX"
+      "description": "Once the event is over, drinks and canapes will be provided in the Canongate room."
     }
   ],
   "expos": [
@@ -117,153 +117,179 @@
     {
       "id": 2,
       "name": "Personalisation A/B Testing",
-      "description": "XX"
+      "description": "A/B Testing empowers fast, confident decisions backed by data optimising headlines, layouts and journeys helps us understand what truly matters."
     },
     {
       "id": 3,
       "name": "Accessibility",
-      "description": "XX"
+      "description": "We’ll outline our approach to accessibility testing—focusing on how we ensure that every digital experience we deliver is both functional and inclusive. This involves rigorous validation across a range of user scenarios, devices, and assistive technologies to confirm that our solutions meet accessibility standards and provide equitable access for all users."
     },
     {
       "id": 4,
-      "name": "Games",
-      "description": "XX"
+      "name": "Gamifying User Experiences",
+      "description": "See how we are using games and gamified experiences to boost customer engagement and education. With live demos on new tools to the group like Unity and Rive as well as a hands on demo with our first gamified education experience brought to the Scottish Widows app."
     },
     {
       "id": 5,
       "name": "Connect Microservice",
-      "description": "XX"
+      "description": "Connect is a no-code/low-code orchestration platform that lets users build automated workflows—called Flows—using modular Blocks like Send SMS” or “Query Data.” It supports both synchronous and asynchronous actions and integrates easily with existing APIs. Trigger Options: Scheduled, ad hoc, and (soon) event-driven Tech Stack: NodeJS, Docker, Kubernetes, GCP Use Case: Notify customers of retirement payment progress via SMS using Pega and DCM3. Connect accelerates delivery by reusing existing business logic, improves developer experience through shared utilities, and is backed by strong documentation and cross-team collaboration."
     },
     {
       "id": 6,
       "name": "Content Square",
-      "description": "XX"
+      "description": "An introduction to ContentSquare, a new and creepy tool introduced to IP&I to help us better understand our customers usage of our digital estate."
     },
     {
       "id": 7,
-      "name": "Lego/Software Build",
-      "description": "XX"
+      "name": "Interstellar",
+      "description": "In this session, the Interstellar team will explore how component-based architecture empowers engineers to build scalable, brand-consistent web journeys across multiple platforms—including Embark, Waterfront, and Enterprise environments."
     },
     {
       "id": 8,
       "name": "Predictive Engagement",
-      "description": "XX"
+      "description": "In this session, we’ll demonstrate how Genesys leverages AI-driven predictive engagement to optimise the customer journey for solar panel sales. By analysing user behaviour on the website, Genesys can assess the likelihood of a customer not completing a desired outcome—such as making a purchase—and proactively tailor support strategies."
     }
   ],
   "talks": [
     {
       "id": 1,
-      "time": "09:30-09:40",
-      "topic": "Welcome & agenda setting",
-      "speakers": ["Derek Shanks"]
+      "time": "09:30",
+      "topic": "Welcome and the Game Plan ahead!",
+      "speakers": ["Derek Shanks"],
+      "location": "St Giles"
     },
     {
       "id": 2,
-      "time": "09:40-09:55",
-      "topic": "People Culture Game",
-      "speakers": ["Rose Ulldemolins"]
+      "time": "09:40",
+      "topic": "Beginning of the People Adventure",
+      "speakers": ["Rose Ulldemolins"],
+      "location": "St Giles"
     },
     {
       "id": 3,
-      "time": "09:55-10:25",
-      "topic": "Welcome from Amit + Strategic Update + Recognition P1",
-      "speakers": ["Amit Thawani"]
+      "time": "09:55",
+      "topic": "Strategic Update",
+      "speakers": ["Amit Thawani"],
+      "location": "St Giles"
     },
     {
       "id": 4,
-      "time": "10:25-10:35",
+      "time": "10:25",
       "topic": "IVR Game",
-      "speakers": ["Nick Grant"]
+      "speakers": ["Nick Grant"],
+      "location": "St Giles"
     },
     {
       "id": 5,
-      "time": "10:35-11:05",
-      "topic": "Sustainability - Kettle v Logon",
-      "speakers": ["Derek Shanks", "Iain Frame"]
+      "time": "10:35",
+      "topic": "GCOO Sustainability - Kettle v Logon",
+      "speakers": ["Derek Shanks", "Iain Frame"],
+      "location": "St Giles"
     },
     {
       "id": 6,
-      "time": "11:05-11:20",
-      "topic": "Break - 15 Mins",
-      "speakers": []
+      "time": "11:05",
+      "topic": "Break",
+      "speakers": [],
+      "location": "Canongate"
     },
     {
       "id": 7,
-      "time": "11:20-11:55",
-      "topic": "Strategic Update + Recognition P2",
-      "speakers": ["Amit Thawani"]
+      "time": "11:20",
+      "topic": "Strategic Update",
+      "speakers": ["Amit Thawani"],
+      "location": "St Giles"
     },
     {
       "id": 8,
-      "time": "11:55-12:05",
+      "time": "11:55",
       "topic": "IVR Game",
-      "speakers": ["Nick Grant"]
+      "speakers": ["Nick Grant"],
+      "location": "St Giles"
     },
     {
       "id": 9,
-      "time": "12:05-12:50",
+      "time": "12:05",
       "topic": "Quantum Computing",
-      "speakers": ["Professor Simon Gay, University of Glasgow"]
+      "speakers": ["Professor Simon Gay, University of Glasgow"],
+      "location": "St Giles"
     },
     {
       "id": 10,
-      "time": "12:50-13:00",
-      "topic": "Icebreaker (People Culture Game)",
-      "speakers": ["Rose Ulldemolins"]
+      "time": "12:50",
+      "topic": "Continuing the People Adventure",
+      "speakers": ["Rose Ulldemolins"],
+      "location": "St Giles"
     },
     {
       "id": 11,
-      "time": "13:00-13:45",
-      "topic": "Networking lunch - 45 mins",
-      "speakers": []
+      "time": "13:00",
+      "topic": "Networking lunch",
+      "speakers": [],
+      "location": "Canongate"
     },
     {
       "id": 12,
-      "time": "13:45-13:50",
-      "topic": "Transition to Expo",
-      "speakers": ["All"]
+      "time": "13:45",
+      "topic": "Transition to Dunedin for Expo",
+      "speakers": ["All"],
+      "location": "Dunedin"
     },
     {
       "id": 13,
-      "time": "13:50-14:40",
+      "time": "13:50",
       "topic": "Waterfront Expo",
-      "speakers": ["Waterfront Platform"]
+      "speakers": ["Waterfront Various Colleagues"],
+      "location": "Dunedin"
     },
     {
       "id": 14,
-      "time": "14:40-14:50",
-      "topic": "Break - 10 mins",
-      "speakers": []
+      "time": "14:40",
+      "topic": "Break",
+      "speakers": [],
+      "location": "Dunedin"
     },
     {
       "id": 15,
-      "time": "14:50-15:40",
+      "time": "14:50",
       "topic": "Waterfront Expo",
-      "speakers": ["Waterfront Platform"]
+      "speakers": ["Waterfront Various Colleagues"],
+      "location": "Dunedin"
     },
     {
       "id": 16,
-      "time": "15:40-15:45",
-      "topic": "Transition back from Expo",
-      "speakers": ["All"]
+      "time": "15:40",
+      "topic": "Transition back to St Giles from Expo",
+      "speakers": ["All"],
+      "location": "St Giles"
     },
     {
       "id": 17,
-      "time": "15:45-15:55",
-      "topic": "Results of People Culture Game and IVR Game",
-      "speakers": ["Rose Ulldemolins", "Nick Grant"]
+      "time": "15:45",
+      "topic": "Results of People Adventure and IVR Game",
+      "speakers": ["Rose Ulldemolins", "Nick Grant"],
+      "location": "St Giles"
     },
     {
       "id": 18,
-      "time": "15:55-16:55",
+      "time": "15:55",
       "topic": "Agentic AI",
-      "speakers": ["Aritra Chakravarty"]
+      "speakers": ["Aritra Chakravarty"],
+      "location": "St Giles"
     },
     {
       "id": 19,
-      "time": "16:55-17:00",
+      "time": "16:55",
       "topic": "Close",
-      "speakers": ["Amit Thawani", "Derek Shanks"]
+      "speakers": ["Amit Thawani", "Derek Shanks"],
+      "location": "St Giles"
+    },
+    {
+      "id": 20,
+      "time": "17:00",
+      "topic": "Social",
+      "speakers": [""],
+      "location": "Canongate"
     }
   ],
   "jammers": [

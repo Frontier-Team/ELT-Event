@@ -1,8 +1,16 @@
 import styled from "@emotion/styled";
-import Map from "../components/Map";
 import { Heading, PageContainer, Paragraph } from "../styles/sharedStyles";
 
 export default function MapPage() {
+  const Link = styled.a`
+    color: ${({ theme }) => theme.colors.teal};
+    text-decoration: bold;
+    font-size: 2rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  `;
   return (
     <PageContainer>
       <Heading>Getting to the Radisson Blu</Heading>
@@ -28,10 +36,16 @@ export default function MapPage() {
           main bus route into the city and is only a 1km walk from the hotel.
         </Paragraph>
       </Wrapper>
-      <Heading>Raddison Blu Floor Map - XX</Heading>
-      <Wrapper>
-        <Map />
-      </Wrapper>
+      <Heading>Raddison Blu Floor Plan</Heading>
+      <Paragraph>You can find a virtual tour of the building here:</Paragraph>
+      <Link
+        href="https://www.mymatterport.com/show/?m=7J9nb7s5w4W"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Virtual Tour
+      </Link>
+      <Wrapper></Wrapper>
     </PageContainer>
   );
 }

@@ -8,24 +8,28 @@ import {
 import { Event } from "../types";
 
 export const TalkAgendaPage = () => {
-  const headers = ["Topic", "Time", "Presenter"];
+  const headers = ["Time", "Location", "Topic", "Presenter"];
 
-  const fieldsToDisplay: (keyof Event)[] = ["topic", "time", "speakers"];
+  const fieldsToDisplay: (keyof Event)[] = [
+    "time",
+    "location",
+    "topic",
+    "speakers",
+  ];
 
   return (
     <PageContainer>
       <Heading>Agenda</Heading>
       <CenteredParagraph>
-        All talks on the day will be held in the XX room where as the expo will
-        be across XX and XX area
+        All talks on the day will be held in St Giles where as the expo will be
+        held in Dundedin.
       </CenteredParagraph>
 
       <Table
-        heading="XX"
+        heading=""
         headers={headers}
         rows={data.talks}
         fieldsToDisplay={fieldsToDisplay}
-        largeFields={["topic"]}
       />
     </PageContainer>
   );

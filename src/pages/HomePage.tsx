@@ -9,7 +9,6 @@ export const HomePage: React.FC = () => {
       <HeroComponent></HeroComponent>
       <Content>
         <Section>
-          <Title>Welcome to the CIO IP&amp;I Q3 ELT Event</Title>
           <Subtitle>
             Thank you for joining us in Edinburgh! The Waterfront platform are
             thrilled to have you here and extend a warm welcome to all of you.
@@ -18,22 +17,24 @@ export const HomePage: React.FC = () => {
         <Section>
           <Subtitle>What you can expect of the day?</Subtitle>
           <Paragraph>
-            First of all, the day is 8-bit gamed themed, so although we want you
-            to get a lot our of the day we also want you to have fun. There's XX
-            games machines in the XX area - please do play them whenever you get
-            a chance.
+            First of all, the day is retro games themed, so although we want you
+            to get a lot out of the day we also want you to have fun. You can
+            even let our your competitive side with our three retro game
+            machines - feel free to make the most of then during lunch and
+            breaks!
           </Paragraph>
           <Paragraph>
-            We'll start in the day in XX room, which will be a welcome from
-            Derek Shanks, our TPL in Waterfront. He'll then pass over the Nick
-            Grant and Rose Ulldemolins who will be your hosts for the day - 80's
-            atire and all! We have a whole host of presenters, details of which
-            you can find in the 'Agenda' tab.
+            Arrival and registration will be in the Canongate room, but we'll
+            kick of the agenda in St Giles with a welcome from Derek Shanks, our
+            TPL in Waterfront. He'll then pass over the Nick Grant and Rose
+            Ulldemolins who will be your hosts for the day - 80's attire and
+            all! We have a whole host of presenters, details of which you can
+            find in the 'Agenda' tab.
           </Paragraph>
           <Paragraph>
             Later in the afternoon we'll be hosting the first ever expo at an
             ELT event. You'll get a chance to hear from 8 different teams across
-            waterfront with interactive demo's for you to get involved in.
+            Waterfront with interactive demo's for you to get involved in.
             Again, more details for these can be found on the 'Expo' tab.
           </Paragraph>
         </Section>
@@ -42,9 +43,9 @@ export const HomePage: React.FC = () => {
           <Paragraph>
             Please connect to the Wi-Fi network using the credentials below.
             <br></br>
-            <strong>Network Name: </strong>XX
+            <strong>Network Name: </strong>Q3 CIO ELT
             <br></br>
-            <strong>Password: </strong>XX
+            <strong>Password: </strong>W@terfron7
           </Paragraph>
         </Section>
         <Footer>
