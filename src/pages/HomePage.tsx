@@ -94,12 +94,6 @@ const Content = styled.div`
 
 const Section = styled.div``;
 
-const Title = styled.h1`
-  font-size: 2.4rem;
-  text-align: center;
-  margin-bottom: 5rem;
-`;
-
 const Subtitle = styled.h2`
   font-size: 1.6rem;
   margin-bottom: 2rem;
