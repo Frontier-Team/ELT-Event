@@ -112,7 +112,7 @@
     {
       "id": 1,
       "name": "Adviser Reviser",
-      "description": "XX"
+      "description": "The adviser lab will give you a refresher of the adviser market, a run down of their systems and their plans for future delivery"
     },
     {
       "id": 2,
@@ -162,7 +162,7 @@
       "id": 2,
       "time": "09:40",
       "topic": "Beginning of the People Adventure",
-      "speakers": ["Rose Ulldemolins"],
+      "speakers": ["Rose Ulldemolins", "Nick Grant"],
       "location": "St Giles"
     },
     {
@@ -204,7 +204,7 @@
       "id": 8,
       "time": "11:55",
       "topic": "IVR Game",
-      "speakers": ["Nick Grant"],
+      "speakers": ["Nick Grant", "Rose Ulldemolins"],
       "location": "St Giles"
     },
     {
@@ -218,7 +218,7 @@
       "id": 10,
       "time": "12:50",
       "topic": "Continuing the People Adventure",
-      "speakers": ["Rose Ulldemolins"],
+      "speakers": ["Rose Ulldemolins", "Nick Grant"],
       "location": "St Giles"
     },
     {

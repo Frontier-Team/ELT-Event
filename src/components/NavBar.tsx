@@ -51,7 +51,6 @@ export const NavBar: React.FC = () => {
     { to: "/schedule", label: "Schedule" },
     { to: "/speakers", label: "Agenda" },
     { to: "/expo", label: "Expo" },
-    { to: "/map", label: "Map" },
     { to: "/people-adventure", label: "People Adventure" },
     { to: "https://ivrgame.netlify.app", label: "IVR Game" },
   ];

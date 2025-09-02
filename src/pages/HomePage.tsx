@@ -10,26 +10,24 @@ export const HomePage: React.FC = () => {
       <Content>
         <Section>
           <Subtitle>
-            Thank you for joining us in Edinburgh! The Waterfront platform are
-            thrilled to have you here and extend a warm welcome to all of you.
+            The Waterfront platform are thrilled to have you here - thanks for
+            joining us in Edinburgh!
           </Subtitle>
         </Section>
         <Section>
           <Subtitle>What you can expect of the day?</Subtitle>
           <Paragraph>
-            First of all, the day is retro games themed, so although we want you
-            to get a lot out of the day we also want you to have fun. You can
-            even let our your competitive side with our three retro game
-            machines - feel free to make the most of then during lunch and
+            Although we want you to get a lot out of the day we also want you to
+            have fun. You can even let our your competitive side with our three
+            retro game machines - feel free to make the most of them during
             breaks!
           </Paragraph>
           <Paragraph>
-            Arrival and registration will be in the Canongate room, but we'll
-            kick of the agenda in St Giles with a welcome from Derek Shanks, our
-            TPL in Waterfront. He'll then pass over the Nick Grant and Rose
-            Ulldemolins who will be your hosts for the day - 80's attire and
-            all! We have a whole host of presenters, details of which you can
-            find in the 'Agenda' tab.
+            We'll kick of the agenda in St Giles with a welcome from Derek
+            Shanks, our TPL in Waterfront. He'll then pass over the Nick Grant
+            and Rose Ulldemolins who will be your hosts for the day - 80's
+            attire and all! We have a whole host of presenters, details of which
+            you can find in the 'Agenda' tab.
           </Paragraph>
           <Paragraph>
             Later in the afternoon we'll be hosting the first ever expo at an

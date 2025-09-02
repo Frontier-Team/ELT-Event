@@ -22,7 +22,7 @@ export const TalkAgendaPage = () => {
       <Heading>Agenda</Heading>
       <CenteredParagraph>
         All talks on the day will be held in St Giles where as the expo will be
-        held in Dundedin.
+        held in Dunedin.
       </CenteredParagraph>
 
       <Table
