@@ -63,8 +63,8 @@ export default function HeroComponent() {
           </Title>
           <Subtitle>
             Hosted by the Waterfront platform, we'd love for you to join us for
-            an 8-bit game themed event with thought provoking talks and our
-            first ever expo!
+            a retro game themed event with thought provoking talks and our first
+            ever expo!
           </Subtitle>
         </LeftColumn>
         <RightColumn>
